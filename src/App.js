@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Sign from "./pages/Sign";
 import User from "./pages/User";
-import { userService } from "./service/userService";
 
 const App = () => {
   return (
